@@ -495,4 +495,17 @@
             </reporting>
         </profile>
     </profiles>
+    
+    <distributionManagement>
+    <repository>
+        <id>maven-releases</id>
+        <name>maven-releases</name>
+        <url>http://13.235.114.106:8081/repository/maven-releases/</url>
+    </repository>
+    <snapshotRepository>
+        <id>maven-snapshots</id>
+        <name>maven-snapshots</name>
+        <url>http://13.235.114.106:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
